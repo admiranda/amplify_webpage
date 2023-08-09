@@ -11,7 +11,7 @@ function App() {
         
         <Parallax y={[-100, 100]} tagOuter="div">
           <div style={{ height: '500px', position: 'relative' }}>
-            <img src="https://images.pexels.com/photos/271667/pexels-photo-271667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Parallax Image" style={{ width: '100%', height: 'auto' }} />
+            <img src="https://images.pexels.com/photos/271667/pexels-photo-271667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Parallax" style={{ width: '100%', height: 'auto' }} />
             <div className="parallax-text">Diseño en Ingeniería</div>
           </div>
         </Parallax>
