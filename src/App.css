@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.parallax-text {
+  font-size: 4em;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  text-align: center;
+}
